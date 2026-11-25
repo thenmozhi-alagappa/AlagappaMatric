@@ -54,7 +54,9 @@ export default function Header() {
         <div className="wrap">
           <div className="utility__contact">
             <a href={tel(SITE.phones[0])}>☎ {SITE.phones[0]}</a>
-            <a href={`mailto:${SITE.email}`}>✉ {SITE.email}</a>
+            {SITE.email
+              ? <a href={`mailto:${SITE.email}`}>✉ {SITE.email}</a>
+              : <span style={{ opacity: 0.75 }}>✉ School email</span>}
           </div>
           <ul className="utility__links">
             {UTILITY.map(([label, to]) => <li key={label}><SmartLink to={to}>{label}</SmartLink></li>)}

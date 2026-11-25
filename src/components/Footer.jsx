@@ -24,7 +24,9 @@ export default function Footer() {
               <p className="footer-motto">{SITE.motto.join(" · ")}</p>
               <p>{SITE.address.join(" ")}</p>
               <p>{SITE.phones.map((p, i) => <span key={p}>{i > 0 && " · "}<a href={tel(p)}>{p}</a></span>)}</p>
-              <p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+              <p>{SITE.email
+                ? <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+                : <span style={{ opacity: 0.75 }}>School email</span>}</p>
               <div className="social">
                 {Object.entries(SITE.social).map(([k, v]) => <a key={k} href={v} aria-label={k}>{SOCIAL_ICONS[k]}</a>)}
               </div>

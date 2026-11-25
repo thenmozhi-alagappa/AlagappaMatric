@@ -50,7 +50,9 @@ export default function Contact() {
             <h2 className="h2">Alagappa Matriculation Hr. Sec. School</h2>
             <div className="contact-item"><h4>Address</h4><p>{SITE.address[0]}<br />{SITE.address[1]}</p></div>
             <div className="contact-item"><h4>Phone</h4><p>{SITE.phones.map((p, i) => <span key={p}>{i > 0 && " · "}<a href={tel(p)}>{p}</a></span>)}</p></div>
-            <div className="contact-item"><h4>Enquiries</h4><p><a href={`mailto:${SITE.email}`}>{SITE.email}</a></p></div>
+            <div className="contact-item"><h4>Enquiries</h4><p>{SITE.email
+              ? <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+              : <span style={{ color: "var(--muted)" }}>School email</span>}</p></div>
             <div className="contact-item"><h4>Principal</h4><p>{SITE.principalEmail
               ? <a href={`mailto:${SITE.principalEmail}`}>{SITE.principalEmail}</a>
               : <span style={{ color: "var(--muted)" }}>Principal's email</span>}</p></div>
