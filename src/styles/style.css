@@ -1364,3 +1364,6 @@ body { font-weight: 500; }
 
 /* Split image shown whole (no crop), e.g. Trust Office on the Leadership page */
 .split__media--full img { aspect-ratio: auto; height: auto; object-fit: contain; border-radius: 4px; }
+
+/* Navbar: "Higher Secondary School · Karaikudi" in bold */
+.site-header .brand__sub { font-weight: 800; color: #5a584f; }
