@@ -25,7 +25,7 @@ export const SITE = {
   officeHours: "Mon–Sat · 9:00 AM – 4:30 PM",
   trust: "The Dr. Alagappa Chettiar Educational Trust",
   groupSite: "http://www.alagappa.org/",
-  registrationForm: "https://www.alagappaschoolkaraikudi.com/support/register_form.pdf",
+  registrationForm: "/forms/xi-registration-form.pdf",
   /* Enquiry form → Google Form (no backend needed). Answers land in the form's Responses / Google Sheet.
      1. Paste your form's link below (the one ending in /viewform, or the forms.gle short link's full URL).
      2. Paste each question's "entry.NNNNN" id (from Google Forms → ⋮ → Get pre-filled link).

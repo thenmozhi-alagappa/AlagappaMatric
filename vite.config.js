@@ -22,14 +22,14 @@ const ignoreLockedFiles = {
   },
 };
 
-// Photos/audio are written in the code as "/images/..." and "/audio/...". When the site
-// lives in a sub-folder (GitHub Pages), prefix those paths with the folder at build time.
+// Photos/audio/forms are written in the code as "/images/...", "/audio/..." and "/forms/...".
+// When the site lives in a sub-folder (GitHub Pages), prefix those paths with the folder at build time.
 const prefixPublicPaths = {
   name: "prefix-public-paths",
   apply: "build",
   transform(code, id) {
     if (BASE === "/" || !/\/src\/.*\.(js|jsx)$/.test(id.replace(/\\/g, "/"))) return null;
-    return { code: code.replace(/(["'`])\/(images|audio)\//g, `$1${BASE}$2/`), map: null };
+    return { code: code.replace(/(["'`])\/(images|audio|forms)\//g, `$1${BASE}$2/`), map: null };
   },
 };
 
