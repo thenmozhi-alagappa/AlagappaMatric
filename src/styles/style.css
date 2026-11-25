@@ -1371,3 +1371,11 @@ body { font-weight: 500; }
 /* Headmistress message card (About page): same look as the Principal card */
 .leader-card--headmistress { background: var(--cream); }
 .leader-card--headmistress .leader-card__photo img { object-position: center 20%; }
+
+/* Leadership page: full Principal / Headmistress messages */
+.profile__message { margin-top: 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+.profile__message p { line-height: 1.75; margin: 0 0 14px; }
+.profile__salute { font-family: var(--font-display); font-size: 20px; color: var(--green) !important; font-weight: 600; }
+.profile__sign { margin-top: 22px !important; padding-left: 16px; border-left: 3px solid var(--gold); }
+.profile__sign b { color: var(--green); }
+@media (min-width: 901px) { .profile > img, .profile > .profile__placeholder { position: sticky; top: 110px; } }

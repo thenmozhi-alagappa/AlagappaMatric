@@ -29,7 +29,10 @@ export default function Leadership() {
               <span className="profile__role">{principal.role}</span>
               <h2>{principal.name}</h2>
               <p><strong>{principal.quals}</strong></p>
-              <Link className="link-arrow" to="/about#principal">Read the full message</Link>
+              <div className="profile__message">
+                {principal.message.map((t, i) => <p key={i} className={i === 0 ? "profile__salute" : undefined}>{t}</p>)}
+                <p className="profile__sign"><b>{principal.name}</b><br />{principal.role}</p>
+              </div>
             </div>
           </article>
 
@@ -41,7 +44,10 @@ export default function Leadership() {
               <span className="profile__role">{headmistress.role}</span>
               <h2>{headmistress.name}</h2>
               <p><strong>{headmistress.quals}</strong></p>
-              <Link className="link-arrow" to="/about#headmistress">Read the full message</Link>
+              <div className="profile__message">
+                {headmistress.message.map((t, i) => <p key={i} className={i === 0 ? "profile__salute" : undefined}>{t}</p>)}
+                <p className="profile__sign">With warm regards,<br /><b>{headmistress.signName}</b><br />{headmistress.role}</p>
+              </div>
             </div>
           </article>
         </div>
