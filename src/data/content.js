@@ -23,10 +23,10 @@ export const stats = [
 ];
 
 export const stripImages = [
-  ["/images/events/umayal-birthday-dance-1-800.jpg", "Classical dance performance"],
+  ["/images/school/silambam-pair-800.jpg", "Silambam practice"],
   ["/images/life/primary-activity-2-800.jpg", "Primary classroom activity"],
   ["/images/campus/primary-students-800.jpg", "Primary students with their books"],
-  ["/images/events/umayal-birthday-dance-2-800.jpg", "Bharatanatyam performance"],
+  ["/images/school/kg-activity-800.jpg", "Kindergarten activity time"],
 ];
 
 export const stages = [
@@ -63,7 +63,7 @@ export const features = [
 export const values = [
   ["Prudence", "Thinking wisely and choosing well, in studies and in life.", "/images/life/seniors-reading-800.jpg", "center 25%"],
   ["Perseverance", "Working steadily towards every goal, and never giving up.", "/images/life/hockey-team-800.jpg", "center 40%"],
-  ["Perfection", "Striving for excellence in everything we do.", "/images/events/umayal-birthday-dance-3-800.jpg", "center 30%"],
+  ["Perfection", "Striving for excellence in everything we do.", "/images/school/physics-lab-2-800.jpg", "center 40%"],
 ];
 
 export const testimonials = [
@@ -92,29 +92,19 @@ export const gallery = [
   { src: "/images/campus/students-campus-800.jpg", caption: "On the Matric campus", cat: "students", size: "tall" },
   { src: "/images/life/students-group-3-800.jpg", caption: "Friends across classes", cat: "students", size: "wide", pos: "center 15%" },
   { src: "/images/life/primary-activity-1-800.jpg", caption: "Primary classroom activity", cat: "students" },
-  { src: "/images/events/umayal-birthday-dance-1-800.jpg", caption: "Bharatanatyam: Dr. Umayal Ramanathan birthday celebration 2025", cat: "events", size: "tall" },
   { src: "/images/life/hockey-team-800.jpg", caption: "Our hockey team", cat: "sports", size: "wide", pos: "center 30%" },
   { src: "/images/life/seniors-reading-800.jpg", caption: "Learning together", cat: "students" },
   { src: "/images/campus/matric-campus-new-800.jpg", caption: "Alagappa Matriculation Higher Secondary School", cat: "campus", size: "wide", pos: "center 10%" },
   { src: "/images/campus/primary-students-800.jpg", caption: "Ready for school", cat: "students", size: "tall" },
-  { src: "/images/events/umayal-birthday-address-800.jpg", caption: "Dr. Umayal Ramanathan birthday celebration 2025", cat: "events" },
   { src: "/images/life/primary-activity-3-800.jpg", caption: "Primary students at work", cat: "students" },
-  { src: "/images/events/umayal-birthday-dance-3-800.jpg", caption: "Classical dance performance", cat: "events", size: "tall" },
   { src: "/images/life/girls-group-800.jpg", caption: "Senior and junior students", cat: "students", size: "wide" },
-  { src: "/images/events/umayal-birthday-winners-1-800.jpg", caption: "Prize winners", cat: "events", size: "wide" },
   { src: "/images/life/primary-trio-800.jpg", caption: "Primary students", cat: "students" },
-  { src: "/images/events/umayal-birthday-prize-800.jpg", caption: "Prize distribution", cat: "events" },
   { src: "/images/life/seniors-reading-2-800.jpg", caption: "Senior students", cat: "students" },
-  { src: "/images/events/umayal-birthday-tribute-800.jpg", caption: "Floral tribute to our founders", cat: "events" },
   { src: "/images/achievements/science-expo.jpg", caption: "Science Expo: first prize for our junior team", cat: "academics" },
   { src: "/images/achievements/mohammed-aarish.jpg", caption: "Essay writing prize, Alagappa University", cat: "academics" },
-  { src: "/images/events/umayal-birthday-winners-all-800.jpg", caption: "All prize winners with the management", cat: "events", size: "wide" },
   { src: "/images/life/seniors-four-800.jpg", caption: "Senior students", cat: "students" },
   { src: "/images/life/primary-activity-2-800.jpg", caption: "Learning by doing", cat: "academics" },
-  { src: "/images/events/umayal-birthday-award-800.jpg", caption: "Award ceremony", cat: "events" },
-  { src: "/images/events/umayal-birthday-dance-2-800.jpg", caption: "Bharatanatyam recital", cat: "events", size: "tall" },
   { src: "/images/life/students-group-1-800.jpg", caption: "Classmates on campus", cat: "students" },
-  { src: "/images/events/umayal-birthday-honour-800.jpg", caption: "Honouring our guests", cat: "events" },
   { src: "/images/school/building-front-800.jpg", caption: "Alagappa Matriculation Higher Secondary School", cat: "campus", size: "wide", pos: "center 40%" },
   { src: "/images/school/smart-class-1-800.jpg", caption: "Smart-board lesson in a primary classroom", cat: "academics" },
   { src: "/images/school/chess-2-800.jpg", caption: "Chess in the school courtyard", cat: "sports", size: "tall", pos: "center 30%" },
@@ -147,7 +137,6 @@ export const gallery = [
 export const news = [
   { id: "xii-results-2025-26", date: "2025–26 · Results", img: "/images/toppers/meyyammai-600.jpg", title: "Class XII results: AL. Meyyammai tops with 593/600", text: "Sathyapriya C (573) and Jessica E (566) placed second and third. 2 centums in Computer Science; 8 students above 550 and 18 above 500.", poster: "/images/results/xii-results-2025-26-1800.jpg" },
   { id: "x-results-2025-26", date: "2025–26 · Results", img: "/images/toppers/nandakishore-600.jpg", title: "Class X results: S S. Nandakishore tops with 487/500", text: "L. John Sebastin Paul (479) and Abhishek S (478) placed second and third. 1 centum in Mathematics; 18 students above 450.", poster: "/images/results/x-results-2025-26-1800.jpg" },
-  { id: "umayal-birthday-2025", date: "2025 · Celebration", img: "/images/events/umayal-birthday-honour-800.jpg", title: "Celebrating the birthday of Dr. Umayal Ramanathan", text: "A day of tribute to our founder, with classical dance performances and prizes for students." },
   { id: "hockey", date: "Aug 2025 · Sports", img: "/images/life/hockey-team-800.jpg", title: "Our hockey team with their trophy" },
   { id: "toppers-2023", date: "2023 · Results", img: "/images/news/hemanth-2023.jpg", title: "Board toppers 2023: Hemanth Ayyaru A leads with 592/600", text: "In Class XII, Roopa R (584) and Varshini G (578) followed. In Class X, Pawan P topped with 486/500, followed by Chittesh K and Sivaani S (480) and Aiyappan R (478)." },
   { id: "district-rank", date: "Award", img: "/images/news/district-rank-award.jpg", title: "District Rank Award for M. Muthupriyadharshini", text: "Presented by the Sivagangai District Collector." },

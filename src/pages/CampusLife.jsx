@@ -43,7 +43,7 @@ export default function CampusLife() {
       <Block id="arts" eyebrow="Arts & Painting" title="Room for every kind of creativity."
         lead="Inspired by our founder's love of the arts and dance."
         text="A dedicated Arts and Crafts teacher guides students in painting, drawing and craft, while Annual Day and cultural festivals give every child a stage. "
-        main="/images/events/umayal-birthday-dance-3-800.jpg" inset="/images/life/primary-activity-2-800.jpg" />
+        main="/images/life/primary-activity-1-800.jpg" inset="/images/school/kg-cheer-800.jpg" />
 
       <section className="section bg-green" id="achievements">
         <div className="wrap">

@@ -5,7 +5,7 @@ import { T, PageHero, CtaBanner } from "../components/ui.jsx";
 export default function Heritage() {
   return (
     <>
-      <PageHero image="/images/events/umayal-birthday-address-1800.jpg" title="Our Rich Heritage" crumbs={[["About Us", "/about"], ["Our Rich Heritage"]]}
+      <PageHero image="/images/school/building-garden-1800.jpg" title="Our Rich Heritage" crumbs={[["About Us", "/about"], ["Our Rich Heritage"]]}
         text="A philanthropist who turned a scrub jungle into a galaxy of institutions, and the family that carries his vision forward." />
 
       <section className="section">
@@ -25,7 +25,7 @@ export default function Heritage() {
         </div>
       </section>
 
-      <CtaBanner image="/images/campus/matric-campus-new-1800.jpg" position="center 30%" eyebrow="Vallal Vazhthu" title="Honouring the spirit of our founder."
+      <CtaBanner image="/images/school/building-garden-1800.jpg" position="center 30%" eyebrow="Vallal Vazhthu" title="Honouring the spirit of our founder."
         text="Listen to the Vallal Vazhthu, sung in tribute to Dr. RM. Alagappa Chettiar.">
         <img className="cta-portrait" src="/images/founders/alagappa-chettiar-800.jpg" alt="Dr. R.M. Alagappa Chettiar" loading="lazy" />
         <audio controls preload="none" style={{ maxWidth: "100%", margin: "0 auto" }}>

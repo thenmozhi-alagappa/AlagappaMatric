@@ -6,7 +6,7 @@ export default function News() {
   const rest = news.slice(5);
   return (
     <>
-      <PageHero image="/images/events/umayal-birthday-honour-1800.jpg" title="In the Spotlight" crumbs={[["News"]]}
+      <PageHero image="/images/life/seniors-reading-1800.jpg" title="In the Spotlight" crumbs={[["News"]]}
         text="Stories, celebrations and achievements from our school community." />
       <section className="section">
         <div className="wrap">

@@ -9,7 +9,7 @@ export default function Gallery() {
   const items = filter === "all" ? gallery : gallery.filter((g) => g.cat === filter);
   return (
     <>
-      <PageHero image="/images/events/umayal-birthday-winners-2-1800.jpg" title="Gallery" crumbs={[["Campus Life", "/campus-life"], ["Gallery"]]}
+      <PageHero image="/images/life/students-group-2-1800.jpg" title="Gallery" crumbs={[["Campus Life", "/campus-life"], ["Gallery"]]}
         text="Celebrations, competitions and everyday moments at Alagappa." />
       <section className="section">
         <div className="wrap">
