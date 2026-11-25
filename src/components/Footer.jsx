@@ -28,7 +28,7 @@ export default function Footer() {
                 ? <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
                 : <span style={{ opacity: 0.75 }}>School email</span>}</p>
               <div className="social">
-                {Object.entries(SITE.social).map(([k, v]) => <a key={k} href={v} aria-label={k}>{SOCIAL_ICONS[k]}</a>)}
+                {Object.entries(SITE.social).map(([k, v]) => <a key={k} href={v} aria-label={`${k[0].toUpperCase()}${k.slice(1)} (opens in a new tab)`} target="_blank" rel="noopener noreferrer">{SOCIAL_ICONS[k]}</a>)}
               </div>
             </div>
             {NAV.slice(0, 3).map((g) => (

@@ -43,7 +43,11 @@ export const SITE = {
   },
   vallalVazhthu: "/audio/vallal-vazhthu.mp3",
   mapQuery: "Alagappa Matriculation Higher Secondary School Karaikudi",
-  social: { facebook: "#", instagram: "#", youtube: "#" },
+  social: {
+    facebook: "https://www.facebook.com/people/Alagappa-matriculation-higher-secondary-school-karaikudi/100063944434820/",
+    instagram: "https://www.instagram.com/alagappamatric_karaikudi/",
+    youtube: "https://www.youtube.com/@thealagappagroup1288",
+  },
   quote: "“My happiness is limitless when I see the young generation getting educated.”",
   quoteBy: "Dr. RM. Alagappa Chettiar",
 };
