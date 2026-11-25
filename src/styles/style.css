@@ -1367,3 +1367,7 @@ body { font-weight: 500; }
 
 /* Navbar: "Higher Secondary School · Karaikudi" in bold */
 .site-header .brand__sub { font-weight: 800; color: #5a584f; }
+
+/* Headmistress message card (About page): same look as the Principal card */
+.leader-card--headmistress { background: var(--cream); }
+.leader-card--headmistress .leader-card__photo img { object-position: center 20%; }

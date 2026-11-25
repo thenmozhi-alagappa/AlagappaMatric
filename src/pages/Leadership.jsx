@@ -41,6 +41,7 @@ export default function Leadership() {
               <span className="profile__role">{headmistress.role}</span>
               <h2>{headmistress.name}</h2>
               <p><strong>{headmistress.quals}</strong></p>
+              <Link className="link-arrow" to="/about#headmistress">Read the full message</Link>
             </div>
           </article>
         </div>

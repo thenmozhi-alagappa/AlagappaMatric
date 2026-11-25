@@ -58,12 +58,28 @@ export default function About() {
               <span className="leader-card__quals">{principal.quals}</span>
               {principal.message.map((t, i) => <p key={i} className={i === 0 ? "leader-card__salute" : undefined}>{t}</p>)}
               <p className="leader-card__sign"><b>{principal.name}</b><br />{principal.role.toUpperCase()}</p>
-              <p className="leader-card__contact">
-                {principal.email && <a href={`mailto:${principal.email}`}>{principal.email}</a>}
-                {principal.email && principal.phone && " · "}{principal.phone}
-                {(principal.email || principal.phone) && <br />}
-                {headmistress.role}: {headmistress.name}, {headmistress.quals}
-              </p>
+              {(principal.email || principal.phone) && (
+                <p className="leader-card__contact">
+                  {principal.email && <a href={`mailto:${principal.email}`}>{principal.email}</a>}
+                  {principal.email && principal.phone && " · "}{principal.phone}
+                </p>
+              )}
+            </div>
+          </article>
+
+          <article className="leader-card leader-card--headmistress reveal" id="headmistress">
+            <div className="leader-card__photo">
+              {headmistress.img
+                ? <img src={headmistress.img} alt={headmistress.name} loading="lazy" />
+                : <div className="photo-placeholder" aria-hidden="true"><span>Photo<br />coming soon</span></div>}
+            </div>
+            <div className="leader-card__body">
+              <Eyebrow>A Message from the Headmistress</Eyebrow>
+              <h3>{headmistress.name}</h3>
+              <span className="leader-card__role">{headmistress.role}</span>
+              <span className="leader-card__quals">{headmistress.quals}</span>
+              {headmistress.message.map((t, i) => <p key={i} className={i === 0 ? "leader-card__salute" : undefined}>{t}</p>)}
+              <p className="leader-card__sign">With warm regards,<br /><b>{headmistress.signName}</b><br />{headmistress.role}</p>
             </div>
           </article>
         </div>

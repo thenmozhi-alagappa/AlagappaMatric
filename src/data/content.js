@@ -396,7 +396,7 @@ export const trustManagement = [
   ["Mr. G. Naresh Kumar", "Trustee"],
 ];
 
-// Principal & Headmistress: placeholders until the new details are ready.
+// Principal (placeholder until the new details are ready) & Headmistress.
 // Fill in name, quals, img (e.g. "/images/founders/principal.jpg"), email, phone and message.
 // Empty img shows a "Photo coming soon" box; empty email/phone are hidden.
 export const principal = {
@@ -411,7 +411,25 @@ export const principal = {
     "The Principal's message will be added here soon.",
   ],
 };
-export const headmistress = { name: "Headmistress's Name", quals: "Qualifications", role: "Headmistress", img: "" };
+export const headmistress = {
+  name: "Mrs. B. Regina",
+  signName: "B. Regina",
+  quals: "B.Sc., M.A., DPTT., D.El.Ed., B.Ed.",
+  role: "Headmistress – Primary",
+  img: "", // add the photo path here, e.g. "/images/founders/headmistress-regina.jpg"
+  message: [
+    "Dear Parents,",
+    "Warm greetings!",
+    "It is a privilege to connect with you through this school diary, which serves as a meaningful link between home and school. It reflects our shared aspirations, our educational vision and our collective responsibility towards nurturing the next generation.",
+    "At Alagappa Matriculation Higher Secondary School, we firmly believe that the primary years are the most formative phase in a child's educational journey. These are the years when the seeds of knowledge are sown, curiosity is awakened, habits are cultivated and character begins to take shape. A strong foundation during these early years paves the way for lifelong learning, confidence and success. Every child deserves an environment where learning is joyful, meaningful and filled with opportunities to explore and grow.",
+    "Our educational approach goes beyond the acquisition of academic knowledge. We strive to develop essential skills in language, numeracy, communication, creativity and critical thinking while nurturing kindness, self-discipline, respect and responsibility. We encourage children to ask questions, express their ideas, discover their abilities and develop the confidence to face new challenges.",
+    "We recognise that education is truly complete when intellectual growth is accompanied by physical, emotional, social and moral development. Through a balanced blend of classroom learning, sports, cultural programmes and experiential activities, we provide opportunities for every child to discover individual talents, develop teamwork, demonstrate leadership and experience the joy of achievement.",
+    "At the heart of our institution lies the belief that every child has immense potential waiting to be discovered. Our dedicated teachers play the role of facilitators, mentors and guides, providing encouragement, individual attention and a caring atmosphere in which each learner feels valued and motivated. We place equal importance on discipline, perseverance and good values, as these qualities help children grow into responsible and compassionate individuals.",
+    "Dear Parents, your involvement and cooperation are integral to this journey. A strong partnership between parents and teachers creates the most supportive foundation for a child's progress. Let us work together with mutual trust and understanding to recognise every milestone, overcome every challenge and celebrate every achievement.",
+    "As we continue this journey of learning and transformation, let us remember that we are not merely preparing children for the next grade; we are preparing them for life.",
+    "Together, let us build strong foundations, inspire young minds and nurture confident, capable and compassionate individuals for tomorrow.",
+  ],
+};
 
 // School profile
 export const schoolProfile = {
