@@ -416,7 +416,7 @@ export const headmistress = {
   signName: "B. Regina",
   quals: "B.Sc., M.A., DPTT., D.El.Ed., B.Ed.",
   role: "Headmistress – Primary",
-  img: "", // add the photo path here, e.g. "/images/founders/headmistress-regina.jpg"
+  img: "/images/founders/headmistress-regina-800.jpg",
   message: [
     "Dear Parents,",
     "Warm greetings!",
