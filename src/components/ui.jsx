@@ -179,12 +179,21 @@ export function Mosaic({ items, captions = true }) {
     return () => { document.body.style.overflow = ""; document.removeEventListener("keydown", onKey); };
   }, [open, move]);
 
+  // While the viewer is open, fetch the next and previous full-size photos so arrows feel instant.
+  useEffect(() => {
+    if (open < 0) return;
+    [1, -1].forEach((d) => {
+      const it = items[(open + d + items.length) % items.length];
+      new Image().src = img(it.src).replace("-800.jpg", "-1800.jpg");
+    });
+  }, [open, items]);
+
   return (
     <>
       <div className="mosaic">
         {items.map((it, i) => (
           <a key={it.src + i} className={it.size || undefined} href={img(it.src).replace("-800.jpg", "-1800.jpg")} onClick={(e) => { e.preventDefault(); setOpen(i); }}>
-            <img src={img(it.src)} alt={it.caption} loading="lazy" style={{ objectPosition: it.pos || "center 25%" }} />
+            <img src={img(it.thumb || it.src)} alt={it.caption} loading={i < 12 ? "eager" : "lazy"} fetchpriority={i < 4 ? "high" : undefined} decoding="async" style={{ objectPosition: it.pos || "center 25%" }} />
             {captions && <span className="caption">{it.caption}</span>}
           </a>
         ))}
