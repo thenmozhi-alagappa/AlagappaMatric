@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { SITE } from "../data/site.js";
+import { headmistress } from "../data/content.js";
 import { T, Eyebrow, PageHero } from "../components/ui.jsx";
 
 const tel = (p) => `tel:${p.replace(/\D/g, "")}`;
@@ -56,6 +57,7 @@ export default function Contact() {
             <div className="contact-item"><h4>Principal</h4><p>{SITE.principalEmail
               ? <a href={`mailto:${SITE.principalEmail}`}>{SITE.principalEmail}</a>
               : <span style={{ color: "var(--muted)" }}>Principal's email</span>}</p></div>
+            {headmistress.email && <div className="contact-item"><h4>Headmistress – Primary</h4><p><a href={`mailto:${headmistress.email}`}>{headmistress.email}</a></p></div>}
             <div className="contact-item"><h4>Office Hours</h4><p>{SITE.officeHours}</p></div>
           </div>
 

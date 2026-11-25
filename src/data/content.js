@@ -404,7 +404,7 @@ export const principal = {
   quals: "Qualifications",
   role: "Principal",
   img: "",
-  email: "",
+  email: "nehru@alagappa.org",
   phone: "",
   message: [
     "Dear Parents,",
@@ -417,6 +417,7 @@ export const headmistress = {
   quals: "B.Sc., M.A., DPTT., D.El.Ed., B.Ed.",
   role: "Headmistress – Primary",
   img: "/images/founders/headmistress-regina-800.jpg",
+  email: "regina@alagappa.org",
   message: [
     "Dear Parents,",
     "Warm greetings!",

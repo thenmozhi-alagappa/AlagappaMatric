@@ -20,8 +20,8 @@ export const SITE = {
   groupPhone: "044-49971111",
   address: ["Alagappapuram, Karaikudi,", "Sivagangai District, Tamil Nadu"],
   phones: ["04565 - 225352", "04565 - 226532"],
-  email: "", // placeholder: add the school's enquiry email here (shows "School email" until filled)
-  principalEmail: "", // placeholder: add the Principal's email here (shows "Principal's email" until filled)
+  email: "highersecondary@alagappa.org",
+  principalEmail: "nehru@alagappa.org",
   officeHours: "Mon–Sat · 9:00 AM – 4:30 PM",
   trust: "The Dr. Alagappa Chettiar Educational Trust",
   groupSite: "http://www.alagappa.org/",

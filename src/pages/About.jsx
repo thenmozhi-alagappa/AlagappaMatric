@@ -80,6 +80,7 @@ export default function About() {
               <span className="leader-card__quals">{headmistress.quals}</span>
               {headmistress.message.map((t, i) => <p key={i} className={i === 0 ? "leader-card__salute" : undefined}>{t}</p>)}
               <p className="leader-card__sign">With warm regards,<br /><b>{headmistress.signName}</b><br />{headmistress.role}</p>
+              {headmistress.email && <p className="leader-card__contact"><a href={`mailto:${headmistress.email}`}>{headmistress.email}</a></p>}
             </div>
           </article>
         </div>
