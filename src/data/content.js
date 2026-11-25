@@ -138,16 +138,7 @@ export const news = [
   { id: "xii-results-2025-26", date: "2025–26 · Results", img: "/images/toppers/meyyammai-600.jpg", title: "Class XII results: AL. Meyyammai tops with 593/600", text: "Sathyapriya C (573) and Jessica E (566) placed second and third. 2 centums in Computer Science; 8 students above 550 and 18 above 500.", poster: "/images/results/xii-results-2025-26-1800.jpg" },
   { id: "x-results-2025-26", date: "2025–26 · Results", img: "/images/toppers/nandakishore-600.jpg", title: "Class X results: S S. Nandakishore tops with 487/500", text: "L. John Sebastin Paul (479) and Abhishek S (478) placed second and third. 1 centum in Mathematics; 18 students above 450.", poster: "/images/results/x-results-2025-26-1800.jpg" },
   { id: "hockey", date: "Aug 2025 · Sports", img: "/images/life/hockey-team-800.jpg", title: "Our hockey team with their trophy" },
-  { id: "toppers-2023", date: "2023 · Results", img: "/images/news/hemanth-2023.jpg", title: "Board toppers 2023: Hemanth Ayyaru A leads with 592/600", text: "In Class XII, Roopa R (584) and Varshini G (578) followed. In Class X, Pawan P topped with 486/500, followed by Chittesh K and Sivaani S (480) and Aiyappan R (478)." },
-  { id: "district-rank", date: "Award", img: "/images/news/district-rank-award.jpg", title: "District Rank Award for M. Muthupriyadharshini", text: "Presented by the Sivagangai District Collector." },
-  { id: "karate", date: "Sports", img: "/images/news/karate.jpg", title: "Southern Regional Karate Championship", text: "Held at Aachi International School, Usilampatti." },
-  { id: "medical-camp", date: "Service", img: "/images/news/medical-camp.jpg", title: "Annadhanam and Medical Camp", text: "Organised by the Interact Club with Rotary." },
   { id: "district-topper", date: "Award", img: "/images/news/srinidhi-district-topper.jpg", title: "R. Srinidhi named District Topper" },
-  { id: "staff-tour", date: "26–27 Apr 2017", img: "/images/news/staff-tour.jpg", title: "Staff Tour to Kodaikanal" },
-  { id: "alumni", date: "15 Sep 2016", img: "/images/news/alumni.jpg", title: "Visit of Alumni" },
-  { id: "smile", date: "Community", img: "/images/news/smile-foundation.jpg", title: "Partnering with the Smile Foundation" },
-  { id: "independence", date: "15 Aug 2016", img: "/images/news/independence-day.jpg", title: "70th Independence Day celebrations" },
-  { id: "year-of-sports", date: "Sports", img: "/images/news/year-of-sports.jpg", title: "Year of Sports: Sivagangai District level meet", text: "Held at Muthaiah Alagappa Matriculation HSS." },
 ];
 
 export const toppersYear = "2025–26";
