@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { SITE, img } from "../data/site.js";
-import { faculty, principal, headmistress } from "../data/content.js";
+import { faculty, principal, headmistress, founders } from "../data/content.js";
+
+const chairman = founders.find((f) => f.id === "ram-vairavan");
 import { T, Eyebrow, SectionHead, PageHero } from "../components/ui.jsx";
 
 export default function Leadership() {
@@ -16,8 +18,9 @@ export default function Leadership() {
             <div>
               <span className="profile__role">Chairman & Correspondent · {SITE.group}</span>
               <h2>Dr. Ramanathan Vairavan</h2>
-              <p>The grandson of Dr. R.M. Alagappa Chettiar, leading the Alagappa Group of Educational Institutions.</p>
-              <Link className="link-arrow" to="/heritage#ram-vairavan">Read full profile</Link>
+              <div className="profile__message">
+                {chairman.paras.map((t, i) => <p key={i}>{t}</p>)}
+              </div>
             </div>
           </article>
 
