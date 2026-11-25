@@ -5,7 +5,9 @@ import { img } from "../data/site.js";
 /* Internal routes use <Link>, external URLs / files use <a> */
 export function SmartLink({ to, children, ...rest }) {
   const external = /^(https?:|mailto:|tel:)/.test(to) || /\.(pdf|mp3)$/i.test(to);
-  if (external) return <a href={to} target={to.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer" {...rest}>{children}</a>;
+  // Web links and PDFs (e.g. the +1 Registration Form) open in a new tab
+  const newTab = to.startsWith("http") || /\.pdf$/i.test(to);
+  if (external) return <a href={to} target={newTab ? "_blank" : undefined} rel="noopener noreferrer" {...rest}>{children}</a>;
   return <Link to={to} {...rest}>{children}</Link>;
 }
 
