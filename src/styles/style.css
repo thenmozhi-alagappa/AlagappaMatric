@@ -342,7 +342,7 @@ ul { padding-left: 1.2em; }
 
 /* ---------- Testimonial ---------- */
 .testimonial { display: grid; grid-template-columns: 420px 1fr; gap: clamp(36px, 6vw, 96px); align-items: center; }
-.testimonial__photo { position: relative; }
+.testimonial__photo { position: relative; isolation: isolate; } /* keeps the gold frame visible above the green background */
 .testimonial__photo img { width: 100%; aspect-ratio: 4/5; object-fit: cover; }
 .testimonial__photo::before { content: ""; position: absolute; inset: 24px -24px -24px 24px; border: 2px solid var(--gold); z-index: -1; }
 .testimonial blockquote { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: clamp(26px, 2.8vw, 40px); line-height: 1.25; }
